@@ -1,0 +1,111 @@
+.gradient-background{
+    background: linear-gradient(300deg, #ff5100, hsl(281, 100%, 65%), #dc3545);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+    @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+ 
+    }
+    background-size: 100%;
+    position: relative;
+}
+h1{
+    font-family: "Libre Baskerville",sans-serif;
+    font-weight: bolder;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline white;
+    color: black;
+    
+}
+
+.container{
+    @media (max-width : 576px){
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: fit-content;
+    margin-right: 30px;
+    }
+}   
+
+.profile{
+    border-radius: 50%;
+    
+}
+.hello{
+    color: black;
+    font-weight: 900;
+    font-family: "Montserrat",sans-serif;
+    font-size: xx-large;
+}
+giga{
+    font-family: "Libre Baskerville",sans-serif;
+    font-weight: 900;
+    margin-top: 100px;
+    color: black;
+}
+p{
+    color: rgb(119, 0, 255);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+#dogcode{
+    float: left;
+}
+.alinger{
+    text-align: left;
+}
+#contact{
+    padding-top: 10%;
+    color: black;
+    font-weight: 900;
+    font-family: "Montserrat",sans-serif;
+    font-size: xx-large;
+}
+#contactt{
+    font-family: "Montserrat",sans-serif;
+    color: black;
+    font-weight: 500;
+}
+#button{
+   font-weight: 600;
+    background-color:  rgb(119, 0, 255);
+    color: black;
+    outline-color: rgb(119, 0, 255);
+}
+.gigachad{
+    padding-top: 10%;
+    animation: gigachad 5s alternate-reverse infinite;
+}
+@keyframes gigachad{
+    0% {
+        transform: translatex(-3vh);
+        opacity: 1;
+      }
+      50% {
+        opacity: 1;
+      }
+      70%{
+        opacity: 0;
+      }
+      100% {
+        transform: translatex(3%);
+        opacity: 1;
+      }
+
+}
+
